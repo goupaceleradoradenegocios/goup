@@ -60,7 +60,7 @@ scrollReveal.reveal(
   #about .image, #about .text,
   #services header, #services .card,
   #testimonials header, #testimonials .testimonials,
-  #diagnostico .header, #diagnostico .text,
+  #diagnostic header, #diagnostic .text,
   #contact .text, #contact .links,
   footer .brand, footer .social
   `,
