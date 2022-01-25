@@ -18,8 +18,6 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
-    <style>.cookieConsentContainer{z-index:999;width:350px;min-height:20px;box-sizing:border-box;padding:30px 30px 30px 30px;background:#232323;overflow:hidden;position:fixed;bottom:30px;right:30px;display:none}.cookieConsentContainer .cookieTitle a{font-family:OpenSans,arial,sans-serif;color:#fff;font-size:22px;line-height:20px;display:block}.cookieConsentContainer .cookieDesc p{margin:0;padding:0;font-family:OpenSans,arial,sans-serif;color:#fff;font-size:13px;line-height:20px;display:block;margin-top:10px}.cookieConsentContainer .cookieDesc a{font-family:OpenSans,arial,sans-serif;color:#fff;text-decoration:underline}.cookieConsentContainer .cookieButton a{display:inline-block;font-family:OpenSans,arial,sans-serif;color:#fff;font-size:14px;font-weight:700;margin-top:14px;background:#000;box-sizing:border-box;padding:15px 24px;text-align:center;transition:background .3s}.cookieConsentContainer .cookieButton a:hover{cursor:pointer;background:#3e9b67}@media (max-width:980px){.cookieConsentContainer{bottom:0!important;left:0!important;width:100%!important}}</style>
-
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -28,6 +26,20 @@
     />
   </head>
   <body>
+
+    <!--INICIOCOOKIES-->
+    <div class="cookies-container">
+      <div class="cookies-content">
+        <p>Este site utiliza cookies para te proporcionar uma melhor experiência. Permito o uso de cookies para:</p>
+        <div class="cookies-pref">
+          <label><input type="checkbox" checked data-function="analytics">Análise de Uso</label>
+          <label><input type="checkbox" checked data-function="marketing">Marketing</label>
+        </div>
+        <button class="cookies-save">Salvar e Continuar</button>
+      </div>
+    </div>
+   <!--FIMCOOKIES-->
+
     <header id="header">
       <nav class="container">
         <a class="logo" href="#">Go.Up<span> Aceleradora de Negócios</span>.</a>
